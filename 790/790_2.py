@@ -3,6 +3,17 @@
 
 class Solution:
     def numTilings(self, n: int) -> int:
+        """
+        Calculates the number of ways to tile a 2 x n board using 1 x 2 dominoes and 2 x 2 trominoes.
+        The calculation uses dynamic programming to compute the result efficiently, accounting for
+        modulo 10**9 + 7 to prevent overflow of large numbers. It optimizes space complexity by
+        storing only necessary intermediate results during the computation.
+
+        :param n: The length of the board to be tiled
+        :type n: int
+        :return: The number of ways to tile the board modulo 10**9 + 7
+        :rtype: int
+        """
         MOD = 10**9 + 7
 
         if n <= 2:
