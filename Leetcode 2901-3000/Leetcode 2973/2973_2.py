@@ -1,6 +1,8 @@
 # Leetcode 2973: Find Number of Coins to Place in Tree Nodes
 # https://leetcode.com/problems/find-number-of-coins-to-place-in-tree-nodes/
 # Solved on 23rd of May, 2025
+import sys
+sys.setrecursionlimit(30000)
 
 class Solution:
     def placedCoins(self, edges: list[list[int]], cost: list[int]) -> list[int]:
