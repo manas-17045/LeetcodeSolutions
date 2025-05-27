@@ -1,4 +1,4 @@
-# Leetcode 20250: Parallel Courses III
+# Leetcode 2050: Parallel Courses III
 # https://leetcode.com/problems/parallel-courses-iii/
 # Solved on 27th of May. 2025
 from collections import deque
