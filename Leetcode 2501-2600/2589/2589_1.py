@@ -1,6 +1,6 @@
 # Leetcode 2589: Minimum Time to Complete All Tasks
 # https://leetcode.com/problems/minimum-time-to-complete-all-tasks/
-# Solved on 27th of May, 2025 
+# Solved on 27th of May, 2025
 
 class Solution:
     def findMinimumTime(self, tasks: list[list[int]]) -> int:
