@@ -1,6 +1,8 @@
 # Leetcode 3249: Count The Number of Good Nodes
 # https://leetcode.com/problems/count-the-number-of-good-nodes/
 # Solved on 28th of May, 2025
+import sys
+sys.setrecursionlimit(10**7)
 
 class Solution:
     def countGoodNodes(self, edges: list[list[int]]) -> int:
