@@ -4,7 +4,6 @@
 
 class Solution:
     def answerString(self, word: str, numFriends: int) -> str:
-        n = len(word)
         """
         Finds the lexicographically largest string that can be a contiguous substring
         of at least one of the `numFriends` pieces the word is split into.
@@ -16,6 +15,7 @@ class Solution:
         Returns:
             The lexicographically largest string that can be a contiguous substring.
         """
+        n = len(word)
         # Special case: If there is exactly 1 friend, you cannot split the word at all,
         # the only valid "chunk" is the entire word.
         if numFriends == 1:
