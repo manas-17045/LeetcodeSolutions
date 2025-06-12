@@ -4,7 +4,6 @@
 
 class Solution:
     def maxAdjacentDistance(self, nums: list[int]) -> int:
-        n = len(nums)
         """
         Calculates the maximum absolute difference between adjacent elements in a circular array.
 
@@ -14,6 +13,7 @@ class Solution:
         Returns:
             The maximum absolute difference between any two adjacent elements, considering the wrap-around from the last to the first element.
         """
+        n = len(nums)
         # Initialize with the last-first wrap-around difference
         max_diff = abs(nums[-1] - nums[0])
 
