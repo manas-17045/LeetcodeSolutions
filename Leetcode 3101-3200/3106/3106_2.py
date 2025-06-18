@@ -4,7 +4,6 @@
 
 class Solution:
     def getSmallestString(self, s: str, k: int) -> str:
-        n = len(s)
         """
         Given a string s and an integer k, return the lexicographically smallest string
         that can be obtained by changing at most k characters in s.
