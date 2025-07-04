@@ -1,5 +1,6 @@
 # Leetcode 831: Push Dominoes
 # https://leetcode.com/problems/push-dominoes/
+# Solved on
 
 class Solution:
     def pushDominoes(self, dominoes: str) -> str:
