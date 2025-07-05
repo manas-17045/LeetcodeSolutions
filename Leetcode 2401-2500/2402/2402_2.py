@@ -1,3 +1,6 @@
+# Leetcode 2402: Meeting Rooms III
+# https://leetcode.com/problems/meeting-rooms-iii/
+# Solved on 5th of July, 2025
 import heapq
 
 
