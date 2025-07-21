@@ -1,6 +1,6 @@
 # Leetcode 2940: Find Building Where Alice and Bob Can Meet
 # https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/
-# Solved on 22nd of December, 2024
+# Solved on 21st of July, 2025
 class Solution:
     def leftmostBuildingQueries(self, heights: list[int], queries: list[list[int]]) -> list[int]:
         """
