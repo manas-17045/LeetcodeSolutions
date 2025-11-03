@@ -1,6 +1,6 @@
 # Leetcode 2751: Robot Collisions
 # https://leetcode.com/problems/robot-collisions/
-# Solved on 3rd of October, 2025
+# Solved on 3rd of November, 2025
 class Solution:
     def survivedRobotHealths(self, positions: list[int], healths: list[int], directions: str) -> list[int]:
         """
