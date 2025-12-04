@@ -1,6 +1,6 @@
 # Leetcode 1657: Determine if Two Strings Are Close
 # https://leetcode.com/problems/determine-if-two-strings-are-close/
-# Solved on 4th of November, 2025
+# Solved on 4th of December, 2025
 import collections
 
 
