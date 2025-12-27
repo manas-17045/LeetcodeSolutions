@@ -5,6 +5,12 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 
 class Solution {
+    /**
+     * Finds the meeting room that hosts the most meetings.
+     * @param n The total number of available meeting rooms.
+     * @param meetings A 2D array where each inner array `[start, end]` represents a meeting's start and end time.
+     * @return The index of the meeting room that hosted the most meetings. If there's a tie, return the room with the smallest index.
+     */
     public int mostBooked(int n, int[][] meetings) {
         Arrays.sort(meetings, (a, b) -> Integer.compare(a[0], b[0]));
 
