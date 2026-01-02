@@ -1,6 +1,6 @@
 // Leetcode 961: N-Repeated Element in Size 2N Array
 // https://leetcode.com/problems/n-repeated-element-in-size-2n-array/
-// Solved on 2nd of January, 2025
+// Solved on 2nd of January, 2026
 class Solution {
     /**
      * Finds the element that appears N times in an array of size 2N.
